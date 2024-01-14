@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pacifico"
+        android:gravity="center"
+        android:text="Traçago"
+        android:textColor="#000000"
+        android:textSize="65sp"
+        android:layout_marginTop="120dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/intermarche_bold"
+        android:gravity="center"
+        android:text="Bienvenue,                              veuillez sélectionner une activité"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="270dp"/>
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/intermarche_bold"
+        android:text="Prendre les photos"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnShowPhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/intermarche_regular"
+        android:text="Afficher les photos"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/intermarche_regular"
+        android:text="Quitter"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:elevation="6dp"/>
+
+
+</RelativeLayout>
+
